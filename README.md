@@ -1,0 +1,1 @@
+# Curricularizac-o2026atualizado
