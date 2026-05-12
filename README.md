@@ -12,5 +12,10 @@ Este é um projeto de curricularização com o propósito de ser um jogo didáti
 - Ser intuitivo para o público alvo
 - Ser pertinente a cultura de Brusque
 ## Tecnologias
-O projeto será feito primariamentede HTML e Css, com um 
-
+O projeto será feito primariamente de HTML e Css, com um pouco de JavaScript para funcionamento do jogo. as imagem e partes gráficas serão feitas por IA ou livre de direitos autorais.
+## Grupo
+Arthur
+Camilly
+Edicley  
+Gabriel
+Luiz
