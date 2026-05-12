@@ -20,9 +20,8 @@ O projeto será feito primariamente de HTML e Css, com um pouco de JavaScript pa
 - Gabriel Henrique da Silva
 - Luiz 
   ## ABAIXO ALGUMAS IMAGENS DO NOSSO PROTÓTIPO FEITO NO FIGMA:
-  <table>
-     <tr>
- <td><img src="assets/teladeloginreadme.png"></td>
+
+ <table>
   <td><img src="assets/menuprincipalreadme.png"></td>
      </tr>
   </table> 
