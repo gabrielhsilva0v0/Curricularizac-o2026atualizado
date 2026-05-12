@@ -5,5 +5,5 @@ Este é um projeto de curricularização com o propósito de ser um jogo didáti
 -  Ter 15 questões
 -  3 Dificuldades
 -  3 tipos de questão
--  - verdadeiro ou falso 
+   - verdadeiro ou falso 
 
