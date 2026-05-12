@@ -19,3 +19,22 @@ O projeto será feito primariamente de HTML e Css, com um pouco de JavaScript pa
 - Edicley Machado 
 - Gabriel Henrique da Silva
 - Luiz 
+  ## ABAIXO ALGUMAS IMAGENS DO NOSSO PROTÓTIPO FEITO NO FIGMA:
+  <table>
+     <tr>
+ <td><img src="assets/teladeloginreadme.png"></td>
+  <td><img src="assets/menuprincipalreadme.png"></td>
+     </tr>
+  </table> 
+  <table>
+     <tr>
+<td><img src="assets/perguntaerespostareadme.png"></td> 
+<td><img src="assets/verdadeiroufalsoreadme.png"></td>
+     </tr>
+  </table>
+    <table>
+     <tr>
+<td><img src="assets/ligaligareadme.png"></td>
+<td><img src="assets/feedbackreadme.png"></td>
+     </tr>
+  </table>
