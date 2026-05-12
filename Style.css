@@ -1,16 +1,12 @@
 body
-{
-    overflow-x: hidden;
-    margin: 0;
-}
-.backImg
-{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    filter: blur(20px);
-    z-index: -1;
-    
-    
-}
+{background-image: url('assets/tela-de-fundo.jpg')}
 
+.container{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+    transform: scale(120%) translate(-50%, -50%);
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 30px;
+}

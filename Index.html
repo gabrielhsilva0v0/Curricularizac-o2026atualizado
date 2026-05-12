@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="Style.css" rel="stylesheet">
-    <title>Jogo curricularização</title>
+    <link rel="stylesheet" href="style.css">
+    <title>tela de login</title>
 </head>
+
 <body>
-    <!-- O index é a primeira cavalo que aparece então ela vai ser a login-->
-    <!-- alterar img depois-->
-    <img class="backImg" src="assets/tela_de_fundo_v_ou_f.jpg" alt="backgorund">
+    <div class="container">
+        <h1>Tela de Login</h1>
+        <form> <!-- tag "required" imposssibilita pular login  -->
+            <label for="username">Aluno</label>
+            <input type="text" id="username" name="username" >
+            <br>
+          <label for="idade">Idade</label>
+          <input type="number" id="idade" name="idade" >
+          <br>
+          <label for="escola">Escola</label>
+          <input type="text" id="escola" name="escola" >
+            <br>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
 </body>
 </html>
