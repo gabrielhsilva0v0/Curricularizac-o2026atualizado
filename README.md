@@ -18,7 +18,7 @@ O projeto será feito primariamente de HTML e Css, com um pouco de JavaScript pa
 - Camilly Nau
 - Edicley Machado 
 - Gabriel Henrique da Silva
-- Luiz 
+- Luis vitor 
   ## ABAIXO ALGUMAS IMAGENS DO NOSSO PROTÓTIPO FEITO NO FIGMA:
 
  <table>
