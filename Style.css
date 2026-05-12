@@ -10,10 +10,12 @@ body
     border: 2px solid rgb(0, 0, 0);
     padding: 30px;
 }
-.login
-{border-color: aqua;
+.loginF
+{
+  display: flex;
+  flex-direction: column;
+  border-color: aqua;
   border-radius: 10px;
   border-width: 10px;
-  align-items: center;
-  
-  }
+  justify-content: center;
+}
