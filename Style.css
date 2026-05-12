@@ -14,8 +14,13 @@ body
 {
   display: flex;
   flex-direction: column;
+  
+  justify-content: center;
+}
+
+.login{
   border-color: aqua;
   border-radius: 10px;
   border-width: 10px;
-  justify-content: center;
+
 }
