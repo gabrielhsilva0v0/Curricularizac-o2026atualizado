@@ -14,8 +14,8 @@ Este é um projeto de curricularização com o propósito de ser um jogo didáti
 ## Tecnologias
 O projeto será feito primariamente de HTML e Css, com um pouco de JavaScript para funcionamento do jogo. as imagem e partes gráficas serão feitas por IA ou livre de direitos autorais.
 ## Grupo
--Arthur
--Camilly
--Edicley  
--Gabriel
--Luiz
+- Arthur
+- Camilly
+- Edicley  
+- Gabriel
+- Luiz
