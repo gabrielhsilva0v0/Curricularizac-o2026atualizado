@@ -5,5 +5,12 @@ Este é um projeto de curricularização com o propósito de ser um jogo didáti
 -  Ter 15 questões
 -  3 Dificuldades
 -  3 tipos de questão
-   - verdadeiro ou falso 
+   - Verdadeiro ou Falso
+   - Conecte as Figuras
+   - Figura Correspondente
+- Funcionar na Web
+- Ser intuitivo para o público alvo
+- Ser pertinente a cultura de Brusque
+## Tecnologias
+O projeto será feito primariamentede HTML e Css, com um 
 
