@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
@@ -12,17 +13,22 @@
     <div class="container">
         <h1>Tela de Login</h1>
         <form class="loginF"> <!-- tag "required" imposssibilita pular login  -->
-            <label for="username">Aluno</label>
-            <input type="text" id="username" name="username" >
-            <br>
-          <label for="idade">Idade</label>
-          <input type="number" id="idade" name="idade" >
-          <br>
-          <label for="escola">Escola</label>
-          <input type="text" id="escola" name="escola" >
-            <br>
+
+            <div class="campo">
+                <label for="username">Aluno</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="campo">
+                <label for="idade">Idade</label>
+                <input type="number" id="idade" name="idade">
+            </div>
+            <div class="campo">
+                <label for="escola">Escola</label>
+                <input type="text" id="escola" name="escola">
+            </div>
             <button class="login" type="submit">Jogar</button>
         </form>
     </div>
 </body>
+
 </html>
