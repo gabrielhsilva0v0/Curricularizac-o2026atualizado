@@ -1,26 +1,58 @@
-body
-{background-image: url('assets/tela-de-fundo.jpg')}
+body {
 
-.container{
+  text-transform: uppercase;
+  background-image: url('assets/tela-de-fundo.jpg')
+}
+
+.container {
   position: absolute;
   top: 40%;
   left: 50%;
-    transform: scale(120%) translate(-50%, -50%);
-    border-radius: 15px;
-    border: 2px solid rgb(0, 0, 0);
-    padding: 30px;
-}
-.loginF
-{
-  display: flex;
-  flex-direction: column;
-  
-  justify-content: center;
+  transform: scale(120%) translate(-50%, -50%);
+  border-radius: 15px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 30px;
 }
 
-.login{
+h1 {
+  text-shadow: 2px 2px 4px rgb(0, 255, 200);
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+
+.loginF {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-shadow: 1px 1px 2px rgb(0, 255, 200);
+  text-decoration: bold;
+  gap: 15px;
+}
+
+.loginF label {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.loginF input {
+  padding: 10px;
+  border-radius: 10px;
+  border-color: rgb(0, 119, 255);
+  border-width: 3px;
+}
+
+.login {
+  background-color: aqua;
   border-color: aqua;
   border-radius: 10px;
   border-width: 10px;
 
 }
+
+.login:hover {
+  background-color: rgb(0, 119, 255);
+  color: white;
+  border-color: rgb(0, 119, 255);
+}
+
