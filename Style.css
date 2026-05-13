@@ -1,17 +1,20 @@
 body {
 
   text-transform: uppercase;
-  background-image: url('assets/tela-de-fundo2.jpg')
+  background-image: url('assets/tela-de-fundo2.png');
+  background-size: cover;
+
 }
 
 .container {
   position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: scale(120%) translate(-50%, -50%);
+  top: 45%;
+  left: 55%;
+  transform: scale(125%) translate(-50%, -50%);
   border-radius: 15px;
   border: 2px solid rgb(0, 0, 0);
   padding: 30px;
+  backdrop-filter: blur(4px);  /* Adiciona um efeito de desfoque ao fundo */
 }
 
 h1 {
