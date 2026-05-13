@@ -1,8 +1,8 @@
-body{
-    background: #1e1e1e;
+body {
+    background-image: url('assets/tela-de-fundo2.png');
     font-family: Arial;
     color: white;
-
+    text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,18 +10,22 @@ body{
     height: 100vh;
 }
 
-.quiz{
-    background: #333;
-    padding: 30px;
+.quiz {
+    
+     backdrop-filter: blur(4px);
+    padding: 150px;
     border-radius: 10px;
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(236, 11, 11) ;
     width: 400px;
 }
 
-button{
+button {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-
+    text-transform: uppercase;
     border: none;
     border-radius: 5px;
 
@@ -29,4 +33,7 @@ button{
     color: white;
 
     cursor: pointer;
+}
+button:hover {
+    background: rgb(55, 190, 14);
 }
