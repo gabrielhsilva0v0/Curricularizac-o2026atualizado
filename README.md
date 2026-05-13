@@ -13,6 +13,14 @@ Este é um projeto de curricularização com o propósito de ser um jogo didáti
 - Ser pertinente a cultura de Brusque
 ## Tecnologias
 O projeto será feito primariamente de HTML e Css, com um pouco de JavaScript para funcionamento do jogo. as imagem e elementos gráficos serão feitas por IA ou livre de direitos autorais.
+## Links
+Perguntas
+
+https://docs.google.com/document/d/1naoYOSqL8MLzD5q-P0YKU4qwQm3l5DRMiNPrxX6tnms/edit?usp=sharing
+
+Protótipo
+
+https://www.figma.com/design/zvylKc0oDQIFVgRTuFFPm7/Curriculariza%C3%A7%C3%A3o?m=auto&t=IzM7yN522o0i5UJL-1
 ## Grupo
 - Arthur Constantino Meurer
 - Camilly Nau
