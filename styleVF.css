@@ -32,7 +32,7 @@ main {
 
 form {
     .verdadeiro {
-        transition: background-color 0.2s, transform 0.2s;
+        transition: background-color 0.2s, transform 0.1s;
         background-color: var(--verdadeiro);
         margin: 20px;
         min-width: fit-content;
@@ -55,7 +55,7 @@ form {
     }
 
     .falso {
-        transition: background-color 0.2s, transform 0.2s;
+        transition: background-color 0.2s, transform 0.1s;
         color: var(--corTexto2);
         background-color: var(--falso);
         margin: 20px;
