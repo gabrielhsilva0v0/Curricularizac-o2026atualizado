@@ -75,3 +75,11 @@ form{
         transform: translateY(-10px);
     }
 }
+.hidden
+{
+    visibility: hidden;
+}
+.result
+{
+    visibility: visible;
+}
