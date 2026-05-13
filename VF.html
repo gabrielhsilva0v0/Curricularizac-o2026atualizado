@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleVF.css">
     <title>Document</title>
     <script src="Script.js" defer></script>
 </head>
+
 <body>
-    <h1 id="pergunta"></h1>
-    <form id="opcao">
-        <input type="image" src="assets/true.jpg" alt="verdadeiro" name="resposta" value="1"></input> 
-        <input type="image" src="assets/false.jpg" alt="falso" name="resposta" value="0"></input>  
-    </form>
-    <h2 id="saida"></h2>
+    <img class="background" src="assets/tela-de-fundo.jpg" alt="Plano de Fundo">
+    <main>
+        <div>
+            <h1 id="pergunta"></h1>
+        </div>
+        <form id="VF">
+            <button class="verdadeiro" type="submit" name="resposta" value="1">VERDADEIRO</button>
+            <button class="falso" type="submit" name="resposta" value="0"> FALSO</button>
+        </form>
+        <h2 id="saida"></h2>
+    </main>
 </body>
+
 </html>

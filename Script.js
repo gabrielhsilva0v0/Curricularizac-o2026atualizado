@@ -1,14 +1,14 @@
 const r3Opt = [1,2,1,3,2]
-const rVF = {priQ:1,segQ:0,terQ:1,qua:0,quiQ:1}
+const rVF = [0,1,1,0,1]
 
 document.getElementById("pergunta").innerHTML = "Pergunta";
-document.getElementById("opcao").addEventListener("submit", function(event){
+document.getElementById("VF").addEventListener("submit", function(event){
 
     event.preventDefault();
 
     let resposta = event.submitter.value;
 
-    if(resposta == rVF.priQ){
+    if(resposta == rVF[0]){
         document.getElementById("saida").innerHTML = "correto";
     }
     else{
