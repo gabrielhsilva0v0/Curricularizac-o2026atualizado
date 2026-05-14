@@ -64,9 +64,9 @@ const perguntas = [
             correta: 1,
 
             imagens: [
-                "imagem 1 ",
-                "imagem 2 ",
-                "imagem 3 ",
+                "assets/roupa_de_mergulho_1.png",
+                "assets/casaco.png",
+                "assets/roupa_de_peixe.jpg",
             ],
 
         },
@@ -102,31 +102,31 @@ const perguntas = [
         },
 
         {
-            pergunta: "8- ?",
+            pergunta: "8- Qual lugar tem muitos carros passando?",
 
-            opcoes: ["", "", ""],
+            opcoes: ["Rios", "rua", "ceu"],
 
-            correta: 0,
+            correta: 1,
 
             imagens: [
-                "",
-                "",
-                "",
+                "assets/rios.jpg",
+                "assets/ruas.jpg",
+                "assets/ceu.jpg",
             ],
 
         },
 
         {
-            pergunta: "9-?",
+            pergunta: "9- Em Brusque quando estamos com cede bebemos?",
 
-            opcoes: ["", "", ""],
+            opcoes: ["suco estragado", "lava", "agua"],
 
-            correta: 0,
+            correta: 2,
 
             imagens: [
-                "",
-                "",
-                "",
+                "assets/suco_estragado.png",
+                "assets/lava.jpg",
+                "assets/agua.png",
             ],
 
         },
@@ -139,9 +139,9 @@ const perguntas = [
             correta: 0,
 
             imagens: [
-                "",
-                "",
-                "",
+                "assets/",
+                "assets/",
+                "assets/",
             ],
 
         },
@@ -151,12 +151,12 @@ const perguntas = [
 
             opcoes: ["", "", ""],
 
-            correta: 0,
+            correta: 1,
 
             imagens: [
-                "",
-                "",
-                "",
+                "assets/",
+                "assets/",
+                "assets/",
             ],
 
         },
@@ -166,12 +166,12 @@ const perguntas = [
 
             opcoes: ["", "", ""],
 
-            correta: 0,
+            correta: 2,
 
             imagens: [
-                "",
-                "",
-                "",
+                "assets/",
+                "assets/",
+                "assets/",
             ],
 
         },
@@ -184,9 +184,9 @@ const perguntas = [
             correta: 0,
 
             imagens: [
-                "",
-                "",
-                "",
+                "assets/",
+                "assets/",
+                "assets/",
             ],
 
         },
@@ -196,12 +196,12 @@ const perguntas = [
 
             opcoes: ["", "", ""],
 
-            correta: 0,
+            correta: 2,
 
             imagens: [
-                "",
-                "",
-                "",
+                "assets/",
+                "assets/",
+                "assets/",
             ],
 
         },
