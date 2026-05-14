@@ -13,11 +13,12 @@ body {
   align-items: center;
   overflow: hidden;
   color: white;
-  
+  background-color: #000000;
 }
 .background
 {
-
+  
+  filter: contrast(0.7) brightness(0.3) blur(3px);
   position: absolute;
   z-index: -1;
   width: 100vw;
@@ -28,6 +29,7 @@ body {
   width: 100%;
   text-align: center;
   animation: aparecer 1s ease;
+  scale: calc(2);
 }
 
 
