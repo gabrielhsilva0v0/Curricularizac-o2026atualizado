@@ -4,7 +4,7 @@ const perguntas = [
         opcoes: ["Cidade", "Animal", "Brinquedo"],
         correta: 0
     }
-    imagens: ["assets/cidade animada.jpg", "assets/animais animados.jpg", "assets/brinquedos animado.jpg"]
+    imagens: ["assets/cidade-animada.jpg", "assets/animais-animados.jpg", "assets/brinquedos-animado.jpg"]
     ,
 
     {
