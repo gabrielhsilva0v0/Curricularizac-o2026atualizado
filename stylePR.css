@@ -13,11 +13,11 @@ body {
 
 .quiz{
     backdrop-filter: blur(4px);
-
-    padding: 30px;
+max-width: 1000px;
+    padding: 7px;
     border-radius: 10px;
 
-    width: 700px;
+    width: 100%;
 }
 
 .opcoes{
@@ -29,6 +29,7 @@ body {
 }
 
 button{
+    transition: transform 0.5s;
     width: 220px;
     height: 220px;
 
@@ -54,5 +55,5 @@ button{
 }
 
 button:hover{
-    transform: scale(1.15);
+    transform: scale(1.30);
 }

@@ -16,16 +16,31 @@ const perguntas = [
     {
         pergunta: "Brusque fica em qual país?",
 
-        opcoes: ["Brasil", "Japão", "Itália"],
+        opcoes: ["", "", ""],
 
         correta: 0,
 
         imagens: [
-            "assets/false.jpg",
-            "assets/true.jpg",
-            "assets/ligaligareadme.jpg"
+            "assets/brasilPR.png",
+            "assets/japaoPR.png",
+            "assets/italiaPR.png"
         ]
-    }
+    },
+
+     {
+        pergunta: "Qual é o mascote de Brusque?",
+
+        opcoes: ["Marreco", "Cobra", "Vaca"],
+
+        correta: 0,
+
+        imagens: [
+            "assets/marrecoPR.png",
+            "assets/cobraPR.png",
+            "assets/vacaPR.png"
+        ]
+    },
+
 ];
 
 let perguntaAtual = 0;
