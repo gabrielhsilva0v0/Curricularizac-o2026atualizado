@@ -17,7 +17,7 @@ body {
 }
 .background
 {
-
+  filter: contrast(0.7) saturate(2) hue-rotate(250deg) brightness(0.3);
   position: absolute;
   z-index: -1;
   width: 100vw;
