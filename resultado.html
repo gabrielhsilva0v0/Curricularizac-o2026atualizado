@@ -7,7 +7,7 @@
 </head>
 
 <body>
-
+  <img class="background" src="assets/tela-de-fundo2.png" alt="">
   <div class="container">
     <h1 class="titulo">🎉 Vitória! 🎉</h1>
     <p>Parabéns! Você completou o desafio!</p>
@@ -17,8 +17,8 @@
 
   <script>
     for (let i = 0; i < 50; i++) {
-      let confete = document.createElement("div");
-      confete.classList.add("confete");
+    let confete = document.createElement("div");
+    confete.classList.add("confete");
 
       confete.style.left = Math.random() * 100 + "vw";
       confete.style.background = `hsl(${Math.random() * 360}, 100%, 60%)`;

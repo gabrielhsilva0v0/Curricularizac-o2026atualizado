@@ -7,7 +7,6 @@
 
 body {
   height: 100vh;
-  background-image: url('assets/tela-de-fundo2.png');
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -16,8 +15,15 @@ body {
   color: white;
   
 }
+.background
+{
 
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height:100vh ;
 
+}
 .container {
   width: 100%;
   text-align: center;

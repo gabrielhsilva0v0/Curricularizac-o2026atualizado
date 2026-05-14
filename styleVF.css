@@ -248,7 +248,7 @@ ball {
     {
         animation: animResultadoStar2;
         animation-duration: 2s;
-        animation-timing-function: cubic-bezier(.72,.1,.94,.1);
+        animation-timing-function: cubic-bezier(.53,.13,.85,.37);
         animation-delay: 0.35s;
     }
 }
@@ -294,13 +294,9 @@ ball {
 
 @keyframes animResultadoBall2 {
     0%{    
-        left: -200px; top: calc(50vh - (var(--sizeBall) + 20px)/2);
+        left: -200px; top: calc(50% - (var(--sizeBall) + 20px)/2);
     }
-    20% {
-        left: calc(50% - (var(--sizeBall) + 20px)/2); transform: scale(1);
-    }
-    40%{}
-    50%{top: calc(50vh - (var(--sizeBall) + 20px)/2);}
+    50%{top: calc(50% - (var(--sizeBall) + 20px)/2);left: calc(50% - (var(--sizeBall) + 20px)/2); ; transform: scale(1);}
     100%{transform: scale(2);}
 
 }
