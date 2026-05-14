@@ -1,6 +1,6 @@
 const perguntas = [
     {
-        pergunta: "Brusque é uma… ?",
+        pergunta: "1- Brusque é uma… ?",
 
         opcoes: ["Cidade", "Animal", "Brinquedo"],
 
@@ -14,7 +14,7 @@ const perguntas = [
     },
 
     {
-        pergunta: "Brusque fica em qual país?",
+        pergunta: "2- Brusque fica em qual país?",
 
         opcoes: ["", "", ""],
 
@@ -28,7 +28,7 @@ const perguntas = [
     },
 
      {
-        pergunta: "Qual é o mascote de Brusque?",
+        pergunta: "3- Qual é o mascote de Brusque?",
 
         opcoes: ["Marreco", "Cobra", "Vaca"],
 
@@ -42,26 +42,26 @@ const perguntas = [
     },
 
         {
-            pergunta: "Qual é o lugar em Brusque onde podemos ver muitos animais e árvores bonitas?",
+            pergunta: "4- Qual é o lugar em Brusque onde podemos ver muitos animais e árvores bonitas?",
 
             opcoes: ["Posto de Gasolina", "Supermercado", "Parque Zoobotânico"],
 
             correta: 2,
 
             imagens: [
-                "imagem 1 ",
-                "imagem 2 ",
-                "imagem 3 ",
+                "assets/posto de gasolina.png",
+                "assets/mercado.png",
+                "assets/zoologico.png",
             ],
 
         },
 
         {
-            pergunta: "",
+            pergunta: "5- O que as pessoas usam quando faz frio em Brusque?",
 
-            opcoes: ["", "", ""],
+            opcoes: ["Roupa de Mergulho", "Casaco", "Fantasia de peixe"],
 
-            correta: 2,
+            correta: 1,
 
             imagens: [
                 "imagem 1 ",
@@ -72,16 +72,136 @@ const perguntas = [
         },
 
         {
-            pergunta: "",
+            pergunta: "6- O que muita gente gosta de comprar em Brusque?",
+
+            opcoes: ["Roupas", "Foguete", "Dinossauro"],
+
+            correta: 0,
+
+            imagens: [
+                "assets/Roupas.jpg",
+                "assets/foguete.png",
+                "assets/dinossauro.png",
+            ],
+
+        },
+
+        {
+            pergunta: "7- Em Brusque tem escolas para?",
+
+            opcoes: ["Aprender", "Dormir", "comer pipoca"],
+
+            correta: 0,
+
+            imagens: [
+                "assets/estudar.png",
+                "assets/dormir.png",
+                "assets/comer pipoca.png",
+            ],
+
+        },
+
+        {
+            pergunta: "8- ?",
 
             opcoes: ["", "", ""],
 
-            correta: 2,
+            correta: 0,
 
             imagens: [
-                "imagem 1 ",
-                "imagem 2 ",
-                "imagem 3 ",
+                "",
+                "",
+                "",
+            ],
+
+        },
+
+        {
+            pergunta: "9-?",
+
+            opcoes: ["", "", ""],
+
+            correta: 0,
+
+            imagens: [
+                "",
+                "",
+                "",
+            ],
+
+        },
+
+        {
+            pergunta: "10- ?",
+
+            opcoes: ["", "", ""],
+
+            correta: 0,
+
+            imagens: [
+                "",
+                "",
+                "",
+            ],
+
+        },
+
+        {
+            pergunta: "11- ?",
+
+            opcoes: ["", "", ""],
+
+            correta: 0,
+
+            imagens: [
+                "",
+                "",
+                "",
+            ],
+
+        },
+
+        {
+            pergunta: "12- ?",
+
+            opcoes: ["", "", ""],
+
+            correta: 0,
+
+            imagens: [
+                "",
+                "",
+                "",
+            ],
+
+        },
+
+        {
+            pergunta: "13- ?",
+
+            opcoes: ["", "", ""],
+
+            correta: 0,
+
+            imagens: [
+                "",
+                "",
+                "",
+            ],
+
+        },
+
+        {
+            pergunta: "14- ?",
+
+            opcoes: ["", "", ""],
+
+            correta: 0,
+
+            imagens: [
+                "",
+                "",
+                "",
             ],
 
         },
