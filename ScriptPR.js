@@ -25,7 +25,22 @@ const perguntas = [
             "assets/japaoPR.png",
             "assets/italiaPR.png"
         ]
-    }
+    },
+
+     {
+        pergunta: "Qual é o mascote de Brusque?",
+
+        opcoes: ["Marreco", "Cobra", "Vaca"],
+
+        correta: 0,
+
+        imagens: [
+            "assets/marrecoPR.png",
+            "assets/cobraPR.png",
+            "assets/vacaPR.png"
+        ]
+    },
+
 ];
 
 let perguntaAtual = 0;
