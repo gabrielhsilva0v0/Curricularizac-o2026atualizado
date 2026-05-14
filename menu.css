@@ -58,6 +58,7 @@ body
     }
 
     .btn:hover {
-      transform: scale(1.05);
+      color: white;
+      transform: scale(1.5);
       opacity: 0.9;
     }
