@@ -7,16 +7,23 @@
 
 body {
   height: 100vh;
-  background-image: url('assets/tela-de-fundo2.png');
   background-size: cover;
   display: flex;
+  filter: blur(10pxs) hue-rotate(250deg);
   justify-content: center;
   align-items: center;
   overflow: hidden;
   color: white;
   
 }
-
+.background
+{
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height:100vh ;
+  filter: blur(4px) sepia() hue-rotate(250deg);
+}
 
 .container {
   width: 100%;
