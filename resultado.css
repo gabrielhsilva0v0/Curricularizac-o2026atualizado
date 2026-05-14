@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url('assets/tela-de-fundo2.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: white;
+  
+}
+
+
+.container {
+  width: 100%;
+  text-align: center;
+  animation: aparecer 1s ease;
+}
+
+
+.titulo {
+  font-size: 65px;
+  color: #ffffff;
+  text-shadow: 0 0 15px #ff66cc, 0 0 25px #ff99dd;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 14px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background: #ffffff;
+  color: #a18cd1;
+  font-weight: 600;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background: #ffe6f2;
+}
+
+/* animação */
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* confete */
+.confete {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: -10px;
+  animation: cair linear infinite;
+}
+
+@keyframes cair {
+  to {
+    transform: translateY(110vh) rotate(720deg);
+  }
+}

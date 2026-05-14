@@ -29,6 +29,7 @@ max-width: 1000px;
 }
 
 button{
+    background-color: transparent;
     transition: transform 0.5s;
     width: 220px;
     height: 220px;
@@ -39,7 +40,7 @@ button{
     border: none;
     border-radius: 15px;
 
-    color: white;
+    color:white;
     font-size: 20px;
     font-weight: bold;
 
