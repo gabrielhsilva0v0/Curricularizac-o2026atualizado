@@ -1,22 +1,30 @@
 const perguntas = [
     {
         pergunta: "Brusque é uma… ?",
+
         opcoes: ["Cidade", "Animal", "Brinquedo"],
-        correta: 0
-    },
-    {
-        imagens: ["assets/cidade-animada.jpg", "assets/animais-animados.jpg", "assets/brinquedos-animados.jpg"]
-    },
-    {
-        pergunta: "Brusque fica em qual país?",
-        opcoes: ["Brasil", "Japão", "Itália"],
-        correta: 0
+
+        correta: 0,
+
+        imagens: [
+            "assets/cidade-animada.jpg",
+            "assets/animais-animados.jpg",
+            "assets/brinquedos-animado.jpg"
+        ]
     },
 
     {
-        pergunta: "Qual é o mascote de Brusque?",
-        opcoes: ["Marreco", "Cobra", "Vaca"],
-        correta: 0
+        pergunta: "Brusque fica em qual país?",
+
+        opcoes: ["Brasil", "Japão", "Itália"],
+
+        correta: 0,
+
+        imagens: [
+            "assets/false.jpg",
+            "assets/true.jpg",
+            "assets/ligaligareadme.jpg"
+        ]
     }
 ];
 
@@ -29,10 +37,16 @@ function carregarPergunta(){
 
     const botoes = document.querySelectorAll("button");
 
-    botoes[0].innerText = perguntas[perguntaAtual].opcoes[0];
-    botoes[1].innerText = perguntas[perguntaAtual].opcoes[1];
-    botoes[2].innerText = perguntas[perguntaAtual].opcoes[2];
+    for(let i = 0; i < botoes.length; i++){
+
+        botoes[i].innerText =
+        perguntas[perguntaAtual].opcoes[i];
+
+        botoes[i].style.backgroundImage =
+        `url('${perguntas[perguntaAtual].imagens[i]}')`;
+    }
 }
+
 
 function verificar(resposta){
 
@@ -60,3 +74,4 @@ function verificar(resposta){
         resultado.innerText = "Resposta errada!";
     }
 }
+carregarPergunta();
