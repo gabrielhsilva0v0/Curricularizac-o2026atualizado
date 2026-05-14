@@ -37,10 +37,54 @@ const perguntas = [
         imagens: [
             "assets/marrecoPR.png",
             "assets/cobraPR.png",
-            "assets/vacaPR.png"
+            "assets/vacaPR.png",
         ]
     },
 
+        {
+            pergunta: "Qual é o lugar em Brusque onde podemos ver muitos animais e árvores bonitas?",
+
+            opcoes: ["Posto de Gasolina", "Supermercado", "Parque Zoobotânico"],
+
+            correta: 2,
+
+            imagens: [
+                "imagem 1 ",
+                "imagem 2 ",
+                "imagem 3 ",
+            ],
+
+        },
+
+        {
+            pergunta: "",
+
+            opcoes: ["", "", ""],
+
+            correta: 2,
+
+            imagens: [
+                "imagem 1 ",
+                "imagem 2 ",
+                "imagem 3 ",
+            ],
+
+        },
+
+        {
+            pergunta: "",
+
+            opcoes: ["", "", ""],
+
+            correta: 2,
+
+            imagens: [
+                "imagem 1 ",
+                "imagem 2 ",
+                "imagem 3 ",
+            ],
+
+        },
 ];
 
 let perguntaAtual = 0;
