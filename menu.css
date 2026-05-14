@@ -1,0 +1,63 @@
+body
+{
+    background-image: url(assets/tela-de-fundo2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+
+    .menu {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 40px;
+      border-radius: 15px;
+      text-align: center;
+      color: white;
+      width: 300px;
+    }
+
+    .menu h1 {
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .facil {
+      background-color: #4CAF50;
+    }
+
+    .medio {
+      background-color: #FFC107;
+      color: black;
+    }
+
+    .dificil {
+      background-color: #F44336;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
