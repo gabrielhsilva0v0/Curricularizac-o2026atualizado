@@ -16,14 +16,14 @@ const perguntas = [
     {
         pergunta: "Brusque fica em qual país?",
 
-        opcoes: ["Brasil", "Japão", "Itália"],
+        opcoes: ["", "", ""],
 
         correta: 0,
 
         imagens: [
-            "assets/false.jpg",
-            "assets/true.jpg",
-            "assets/ligaligareadme.jpg"
+            "assets/brasilPR.png",
+            "assets/japaoPR.png",
+            "assets/italiaPR.png"
         ]
     }
 ];
