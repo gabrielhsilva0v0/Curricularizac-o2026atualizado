@@ -22,7 +22,7 @@ body {
   z-index: -1;
   width: 100vw;
   height:100vh ;
-  filter: blur(4px) sepia() hue-rotate(250deg);
+  filter: blur(4px) sepia() hue-rotate(150deg);
 }
 
 .container {

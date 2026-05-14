@@ -300,7 +300,7 @@ ball {
         left: calc(50% - (var(--sizeBall) + 20px)/2); transform: scale(1);
     }
     40%{}
-    50%{top: calc(50vh - (var(--sizeBall) + 20px)/2);}
+    50%{top: calc(50 - (var(--sizeBall) + 20px)/2);}
     100%{transform: scale(2);}
 
 }
