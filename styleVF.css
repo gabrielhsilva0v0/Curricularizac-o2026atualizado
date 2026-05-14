@@ -5,8 +5,25 @@
     --falsoSub: rgb(187, 0, 0);
     --corTexto1: rgb(0, 0, 0);
     --corTexto2: rgb(226, 226, 226);
+    --color1: rgb(61, 190, 230);
+    --color2: rgb(181, 232, 252);
 }
+@keyframes errado {
+    17%{transform: translateX(-50px);}
+    33%{transform:translateX(50px);}
+    50%{transform: translateX(-50px);}
+    67%{transform:translateX(50px);}
+    83%{transform: translateX(-50px);}
 
+}
+@keyframes correto {
+    17%{transform: translateY(-50px);}
+    33%{transform:translateY(50px);}
+    50%{transform: translateY(-50px);}
+    67%{transform:translateY(50px);}
+    83%{transform: translateY(-50px);}
+
+}
 body {
     margin: 0;
     margin-top: 0;
@@ -20,7 +37,7 @@ body {
     filter: blur(20px) hue-rotate(315deg);
     z-index: -1;
 }
-
+ /**/
 main {
     width: 100vw;
     height: 100vh;
@@ -29,20 +46,65 @@ main {
     align-items: center;
     justify-content: space-around;
 }
-
-form {
+.homeBtn
+{
+    width: 100px;
+    position: absolute;
+    filter: hue-rotate(250deg);
+}
+.erradoAnim
+{
+    animation: errado;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+}
+.corretoAnim
+{
+    animation: correto;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+}
+.pergunta
+{
+    justify-items: center;
+    align-content: center;
+    min-width: fit-content;
+    width: 50vw;
+    height: 15vh;
+    padding: 30px;
+    border: 10px solid var(--color1);
+    border-radius: 40px;
+    background-color: var(--color2);
+}
+.caixaResposta {
+    display: flex;
     .verdadeiro {
-        transition: background-color 0.2s, transform 0.2s;
+        transition: background-color 0.2s, transform 0.1s;
         background-color: var(--verdadeiro);
         margin: 20px;
         min-width: fit-content;
         width: 30vw;
-        padding: 50px 100px;
+        padding: 50px 20px;
         font-size: 30px;
         font-family: monospace;
+        font-weight: 1000;
         border-radius: 50px;
         border: solid 10px var(--verdadeiroSub);
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        img
+        {
+            display: inline;
+            width: 100px;
+            border-radius: 50%;
+        }
+        p
+        {
+            display: inline;
+        }
     }
 
     .verdadeiro:hover {
@@ -55,19 +117,32 @@ form {
     }
 
     .falso {
-        transition: background-color 0.2s, transform 0.2s;
+        transition: background-color 0.2s, transform 0.1s;
         color: var(--corTexto2);
         background-color: var(--falso);
         margin: 20px;
         min-width: fit-content;
         width: 30vw;
-        padding: 50px 100px;
+        padding: 50px 20px;
         font-size: 30px;
         font-family: monospace;
+        font-weight: 1000;
         border-radius: 50px;
         border: solid 10px var(--falsoSub);
         cursor: pointer;
-
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        img
+        {
+            display: inline;
+            width: 100px;
+            border-radius: 50%;
+        }
+        p
+        {
+            display: inline;
+        }
     }
 
     .falso:hover {
