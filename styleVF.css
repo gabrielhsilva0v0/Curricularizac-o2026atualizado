@@ -7,8 +7,8 @@
     --corTexto2: rgb(226, 226, 226);
     --color1: rgb(61, 190, 230);
     --color2: rgb(181, 232, 252);
-    --resultado1: rgb(181, 232, 252);
-    --resultado2: rgb(61, 190, 230);
+    --resultado1: rgb(29, 29, 29);
+    --resultado2: rgb(255, 251, 0);
     --sizeBall: 150px;
 }
 
@@ -195,82 +195,114 @@ main {
     opacity: 0%;
 }
 
-.animationBox {
-    
-    ball{
-        position: fixed;
-        top: calc(50vh - (var(--sizeBall) + 20px)/2);
-        left: calc(50vw - (var(--sizeBall) + 20px)/2);
-        z-index: 1;
-        padding: 10px;
-        border: 10px solid var(--resultado2);
-        border-radius: 50%;
-        background-color: var(--resultado1);
-        width: var(--sizeBall);
-        height: var(--sizeBall);
-        z-index: 1;
 
-        img {
-            width: inherit;
-            height: inherit;
-        }
 
+ball {
+    position: fixed;
+    top: calc(50vh - (var(--sizeBall) + 20px)/2);
+    left: calc(50vw - (var(--sizeBall) + 20px)/2);
+    z-index: 1;
+    padding: 10px;
+    border: 10px double var(--resultado2);
+    border-radius: 50%;
+    background-color: var(--resultado1);
+    width: var(--sizeBall);
+    height: var(--sizeBall);
+    z-index: 1;
+
+    img {
+        width: inherit;
+        height: inherit;
     }
 
-    .animB1{
+}
 
-        animation: animResultadoBall1;
+.animB1 {
+
+    animation: animResultadoBall1;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(.85, .66, 0, 0);
+    animation-delay: 0.35s;
+    transform-origin: 50% 100%;
+    left: 120vw;
+    .animS1
+    {
+        animation: animResultadoStar1;
         animation-duration: 2s;
         animation-timing-function: cubic-bezier(.85, .66, 0, 0);
-        animation-delay: 0.2s;
+        animation-delay: 0.35s;
         left: 120vw;
     }
-
-
-    .anim2 {}
-
-    .anim3 {}
-
-    .anim4 {}
 }
+
+
+.animB2{
+    
+    animation: animResultadoBall2;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+    animation-delay: 0.35s;
+    transform-origin: 50% 100%;
+    top: -200px;
+    .animS2
+    {
+        animation: animResultadoStar2;
+        animation-duration: 2s;
+        animation-timing-function: cubic-bezier(.72,.1,.94,.1);
+        animation-delay: 0.35s;
+    }
+}
+
+.anim3 {}
+
+.anim4 {}
+
 
 @keyframes animResultadoBall1 {
     0% {
-        left: -200px;
+        left: -200px ; top: calc(50vh - (var(--sizeBall) + 20px)/2);
     }
     20% {
-        left: calc(40vh - (var(--sizeBall) + 20px)/2)
+        left: calc(40% - (var(--sizeBall) + 20px)/2)
     }
     25% {
-        left: calc(46vh - (var(--sizeBall) + 20px)/2)
+        left: calc(46% - (var(--sizeBall) + 20px)/2)
     }
     30% {
-        left: calc(50vh - (var(--sizeBall) + 20px)/2);
+        left: calc(50% - (var(--sizeBall) + 20px)/2);
     }
-    50% {
-        left: calc(50vh - (var(--sizeBall) + 20px)/2);
+    60% {
+        left: calc(50% - (var(--sizeBall) + 20px)/2); transform: scaleY(1);
     }
     70% {
-        left: calc(50vh - (var(--sizeBall) + 20px)/2);
+        left: calc(50% - (var(--sizeBall) + 20px)/2); transform: scaleY(0.8);
     }
     80% {
-        left: calc(48vh - (var(--sizeBall) + 20px)/2);
+        left: calc(48% - (var(--sizeBall) + 20px)/2); transform: scal;
     }
-    100% {
-        left: calc(100vh - (var(--sizeBall) + 20px)/2);
-    }
+
 }
 
 @keyframes animResultadoStar1 {
     30% {
-        transform: 360;
+        transform: rotate(360deg);
     }
-
-    50% {}
-
-    70% {}
+    50% {transform: rotate(360deg)}
+    70% {transform: rotate(1080deg) ;}
+    100% {transform: rotate(2160deg);}
 }
 
-@keyframes animResultado3 {}
+@keyframes animResultadoBall2 {
+    0%{    
+        left: -200px; top: calc(50vh - (var(--sizeBall) + 20px)/2);
+    }
+    20% {
+        left: calc(50% - (var(--sizeBall) + 20px)/2); transform: scale(1);
+    }
+    40%{}
+    50%{top: calc(50vh - (var(--sizeBall) + 20px)/2);}
+    100%{transform: scale(2);}
 
-@keyframes animResultado4 {}
+}
+
+@keyframes animResultadoStar2 {}
