@@ -3,10 +3,10 @@ const perguntas = [
         pergunta: "Brusque é uma… ?",
         opcoes: ["Cidade", "Animal", "Brinquedo"],
         correta: 0
-    }
-    imagens: ["assets/cidade animada.jpg", "assets/animais animados.jpg", "assets/brinquedos animado.jpg"]
-    ,
-
+    },
+    {
+        imagens: ["assets/cidade-animada.jpg", "assets/animais-animados.jpg", "assets/brinquedos-animados.jpg"]
+    },
     {
         pergunta: "Brusque fica em qual país?",
         opcoes: ["Brasil", "Japão", "Itália"],
