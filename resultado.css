@@ -7,7 +7,8 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(135deg, #ff9a9e, #a18cd1);
+  background-image: url('assets/tela-de-fundo2.png');
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,13 +16,14 @@ body {
   color: white;
 }
 
-/* Container centralizado */
+
 .container {
+  width: 100%;
   text-align: center;
   animation: aparecer 1s ease;
 }
 
-/* Título mais fofinho */
+
 .titulo {
   font-size: 65px;
   color: #ffffff;
@@ -34,7 +36,6 @@ p {
   margin-bottom: 30px;
 }
 
-/* Botão mais fofinho e centralizado */
 .btn {
   display: block;
   margin: 0 auto;
