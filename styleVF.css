@@ -7,23 +7,57 @@
     --corTexto2: rgb(226, 226, 226);
     --color1: rgb(61, 190, 230);
     --color2: rgb(181, 232, 252);
+    --resultado1: rgb(181, 232, 252);
+    --resultado2: rgb(61, 190, 230);
+    --sizeBall: 150px;
 }
+
 @keyframes errado {
-    17%{transform: translateX(-50px);}
-    33%{transform:translateX(50px);}
-    50%{transform: translateX(-50px);}
-    67%{transform:translateX(50px);}
-    83%{transform: translateX(-50px);}
+    17% {
+        transform: translateX(-50px);
+    }
+
+    33% {
+        transform: translateX(50px);
+    }
+
+    50% {
+        transform: translateX(-50px);
+    }
+
+    67% {
+        transform: translateX(50px);
+    }
+
+    83% {
+        transform: translateX(-50px);
+    }
 
 }
+
 @keyframes correto {
-    17%{transform: translateY(-50px);}
-    33%{transform:translateY(50px);}
-    50%{transform: translateY(-50px);}
-    67%{transform:translateY(50px);}
-    83%{transform: translateY(-50px);}
+    17% {
+        transform: translateY(-50px);
+    }
+
+    33% {
+        transform: translateY(50px);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+
+    67% {
+        transform: translateY(50px);
+    }
+
+    83% {
+        transform: translateY(-50px);
+    }
 
 }
+
 body {
     margin: 0;
     margin-top: 0;
@@ -34,10 +68,10 @@ body {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    filter: blur(20px) hue-rotate(315deg);
+    filter: blur(20px) hue-rotate(185deg);
     z-index: -1;
 }
- /**/
+
 main {
     width: 100vw;
     height: 100vh;
@@ -46,26 +80,26 @@ main {
     align-items: center;
     justify-content: space-around;
 }
-.homeBtn
-{
+
+.homeBtn {
     width: 100px;
     position: absolute;
     filter: hue-rotate(250deg);
 }
-.erradoAnim
-{
+
+.erradoAnim {
     animation: errado;
     animation-duration: 0.75s;
     animation-timing-function: ease-in-out;
 }
-.corretoAnim
-{
+
+.corretoAnim {
     animation: correto;
     animation-duration: 0.75s;
     animation-timing-function: ease-in-out;
 }
-.pergunta
-{
+
+.pergunta {
     justify-items: center;
     align-content: center;
     min-width: fit-content;
@@ -76,8 +110,10 @@ main {
     border-radius: 40px;
     background-color: var(--color2);
 }
+
 .caixaResposta {
     display: flex;
+
     .verdadeiro {
         transition: background-color 0.2s, transform 0.1s;
         background-color: var(--verdadeiro);
@@ -95,14 +131,13 @@ main {
         align-items: center;
         justify-content: space-evenly;
 
-        img
-        {
+        img {
             display: inline;
             width: 100px;
             border-radius: 50%;
         }
-        p
-        {
+
+        p {
             display: inline;
         }
     }
@@ -133,14 +168,14 @@ main {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        img
-        {
+
+        img {
             display: inline;
             width: 100px;
             border-radius: 50%;
         }
-        p
-        {
+
+        p {
             display: inline;
         }
     }
@@ -157,9 +192,85 @@ main {
 }
 
 .hidden {
-    visibility: hidden;
+    opacity: 0%;
 }
 
-.result {
-    visibility: visible;
+.animationBox {
+    
+    ball{
+        position: fixed;
+        top: calc(50vh - (var(--sizeBall) + 20px)/2);
+        left: calc(50vw - (var(--sizeBall) + 20px)/2);
+        z-index: 1;
+        padding: 10px;
+        border: 10px solid var(--resultado2);
+        border-radius: 50%;
+        background-color: var(--resultado1);
+        width: var(--sizeBall);
+        height: var(--sizeBall);
+        z-index: 1;
+
+        img {
+            width: inherit;
+            height: inherit;
+        }
+
+    }
+
+    .animB1{
+
+        animation: animResultadoBall1;
+        animation-duration: 2s;
+        animation-timing-function: cubic-bezier(.85, .66, 0, 0);
+        animation-delay: 0.2s;
+        left: 120vw;
+    }
+
+
+    .anim2 {}
+
+    .anim3 {}
+
+    .anim4 {}
 }
+
+@keyframes animResultadoBall1 {
+    0% {
+        left: -200px;
+    }
+    20% {
+        left: calc(40vh - (var(--sizeBall) + 20px)/2)
+    }
+    25% {
+        left: calc(46vh - (var(--sizeBall) + 20px)/2)
+    }
+    30% {
+        left: calc(50vh - (var(--sizeBall) + 20px)/2);
+    }
+    50% {
+        left: calc(50vh - (var(--sizeBall) + 20px)/2);
+    }
+    70% {
+        left: calc(50vh - (var(--sizeBall) + 20px)/2);
+    }
+    80% {
+        left: calc(48vh - (var(--sizeBall) + 20px)/2);
+    }
+    100% {
+        left: calc(100vh - (var(--sizeBall) + 20px)/2);
+    }
+}
+
+@keyframes animResultadoStar1 {
+    30% {
+        transform: 360;
+    }
+
+    50% {}
+
+    70% {}
+}
+
+@keyframes animResultado3 {}
+
+@keyframes animResultado4 {}

@@ -19,7 +19,6 @@ document.getElementById("VF").addEventListener("submit", function (event) {
     let resposta = event.submitter.value;
 
     if (resposta == rVF[perg]) {
-        document.getElementById("saida").classList = "result";
         document.getElementById("animation").classList = "corretoAnim"
         setTimeout(() => {
             document.getElementById("animation").className = ""
@@ -28,8 +27,6 @@ document.getElementById("VF").addEventListener("submit", function (event) {
                 document.getElementById("pergunta").innerHTML = listPerguntas[perg];
             }
         }, 850);
-
-
     }
     else {
         document.getElementById("animation").className = "erradoAnim"
@@ -37,5 +34,4 @@ document.getElementById("VF").addEventListener("submit", function (event) {
             document.getElementById("animation").className = ""
         }, 750);
     }
-
 });
