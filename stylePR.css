@@ -1,4 +1,7 @@
+* {overflow: hidden;}
+    
 body {
+
     background-size: cover;
     background-image: url('assets/tela-de-fundo2.png');
     font-family: Arial;
@@ -14,17 +17,27 @@ body {
 .quiz{
     backdrop-filter: blur(2px);
     max-width: 100%;
-    height: 75%;
-    padding: 7px;
+    height: 80%;
+    padding: px;
     border-radius: 10px;
-    border: solid 2px white;
-overflow-y: hidden;
+    border: solid 2px #ffff;
     width: 80%;
+    ;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:45px;
+    font-weight: bold;
 }
 
 .opcoes{
-    display: grid;
 
+    margin-top: 18%;
+    display: grid;
+    max-height: none ;
     grid-template-columns: repeat(3, 1fr);
 
     gap: 20px;
@@ -33,8 +46,8 @@ overflow-y: hidden;
 button{
     background-color: transparent;
     transition: transform 0.5s;
-    width: 220px;
-    height: 220px;
+    width: 300px;
+    height: 300px;
 
     background-size: cover;
     background-position: center;
@@ -58,5 +71,5 @@ button{
 }
 
 button:hover{
-    transform: scale(1.30);
+    transform: scale(1.90);
 }
