@@ -102,7 +102,7 @@ const perguntas = [
         },
 
         {
-            pergunta: "8- Qual lugar tem muitos carros passando?",
+            pergunta: "8- Em Brusque Qual lugar tem muitos carros passando?",
 
             opcoes: ["Rios", "rua", "ceu"],
 
@@ -117,7 +117,7 @@ const perguntas = [
         },
 
         {
-            pergunta: "9- Em Brusque quando estamos com cede bebemos?",
+            pergunta: "9- Em Brusque quando estamos com sede bebemos?",
 
             opcoes: ["suco estragado", "lava", "agua"],
 
@@ -132,76 +132,16 @@ const perguntas = [
         },
 
         {
-            pergunta: "10- ?",
+            pergunta: "10- Qual e a camisa de futebol do time de Brusque?",
 
-            opcoes: ["", "", ""],
-
-            correta: 0,
-
-            imagens: [
-                "assets/",
-                "assets/",
-                "assets/",
-            ],
-
-        },
-
-        {
-            pergunta: "11- ?",
-
-            opcoes: ["", "", ""],
-
-            correta: 1,
-
-            imagens: [
-                "assets/",
-                "assets/",
-                "assets/",
-            ],
-
-        },
-
-        {
-            pergunta: "12- ?",
-
-            opcoes: ["", "", ""],
-
-            correta: 2,
-
-            imagens: [
-                "assets/",
-                "assets/",
-                "assets/",
-            ],
-
-        },
-
-        {
-            pergunta: "13- ?",
-
-            opcoes: ["", "", ""],
+            opcoes: ["Brusque", "Real Madrid", "Barcelona"],
 
             correta: 0,
 
             imagens: [
-                "assets/",
-                "assets/",
-                "assets/",
-            ],
-
-        },
-
-        {
-            pergunta: "14- ?",
-
-            opcoes: ["", "", ""],
-
-            correta: 2,
-
-            imagens: [
-                "assets/",
-                "assets/",
-                "assets/",
+                "assets/camisa brusque .png",
+                "assets/real madrid.png",
+                "assets/barcelona2.png",
             ],
 
         },
