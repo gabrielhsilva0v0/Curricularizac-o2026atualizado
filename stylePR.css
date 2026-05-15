@@ -17,12 +17,15 @@ overflow: hidden;
 .quiz{
     backdrop-filter: blur(2px);
     max-width: 100%;
-    height: 80%;
-    padding: px;
+    height: 80vh;
+    padding: 20px 50px;
     border-radius: 10px;
     border: solid 2px #ffff;
     width: 80%;
-    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 h2{
@@ -35,6 +38,7 @@ h2{
     align-items: center;
     font-size:45px;
     font-weight: bold;
+    text-shadow: 0 -5px black;
 }
 
 .opcoes{
@@ -78,4 +82,33 @@ button{
 
 button:hover{
     transform: scale(1.50);
+}
+.resultado{
+    font-weight: bolder;
+    font-size: 40px;
+    color: #ffff00;
+    animation: arco;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes arco {
+    16%{
+        color: #00ff00;
+    }
+    33%{
+        color: #0000ff;
+    }
+    51%{
+        color: #4b0082;
+    }
+    67%{
+        color: #ff0000;
+    }
+    83%{
+        color:#ff7f00 ;
+    }
+}
+.errado{font-size: 40px;
+        font-weight: bolder;
+            color: #ff0000;
 }

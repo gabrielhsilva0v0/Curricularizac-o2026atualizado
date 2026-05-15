@@ -173,7 +173,7 @@ function verificar(resposta){
     document.getElementById("resultado");
 
     if(resposta == perguntas[perguntaAtual].correta){
-
+        resultado.classList = "resultado"  
         resultado.innerText = "Resposta correta!";
 
         perguntaAtual++;
@@ -187,9 +187,13 @@ function verificar(resposta){
 
         }else{
             resultado.innerText = "Você venceu o quiz!";
+            setTimeout(()=> {
+                window.location.href="resultado.html";
+            }, 1000)
         }
 
     }else{
+        resultado.classList = "errado"  
         resultado.innerText = "Resposta errada!";
     }
 }
