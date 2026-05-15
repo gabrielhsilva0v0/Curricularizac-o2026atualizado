@@ -139,7 +139,7 @@ const perguntas = [
             correta: 0,
 
             imagens: [
-                "assets/camisa brusque .png",
+                "assets/camisa brusque.png",
                 "assets/real madrid.png",
                 "assets/barcelona2.png",
             ],
