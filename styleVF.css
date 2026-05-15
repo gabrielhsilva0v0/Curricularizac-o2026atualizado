@@ -11,7 +11,11 @@
     --resultado2: rgb(255, 251, 0);
     --sizeBall: 150px;
 }
-
+*
+{
+  overflow-y: hidden;
+  text-transform: uppercase;
+}
 @keyframes errado {
     17% {
         transform: translateX(-50px);

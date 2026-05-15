@@ -1,4 +1,8 @@
-
+*
+{
+  overflow-y: hidden;
+  text-transform: uppercase;
+}
     
 body {
 overflow: hidden;

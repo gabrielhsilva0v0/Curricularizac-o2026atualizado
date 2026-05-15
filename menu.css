@@ -18,6 +18,9 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+  overflow-y: hidden;
+  text-transform: uppercase;
+
 }
 .titulo
 {

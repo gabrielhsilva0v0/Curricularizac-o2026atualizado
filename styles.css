@@ -1,5 +1,9 @@
+*
+{
+  overflow-y: hidden;
+  text-transform: uppercase;
+}
 body {
-
   text-transform: uppercase;
   background-image: url('assets/tela-de-fundo2.png');
   background-size: cover;
@@ -9,8 +13,8 @@ body {
 
 .container {
   position: absolute;
-  top: 45%;
-  left: 55%;
+  top: 50vh;
+  left: 55vw;
   transform: scale(125%) translate(-50%, -50%);
   border-radius: 15px;
   border: 2px solid rgb(0, 0, 0);
@@ -98,6 +102,7 @@ h1 {
   display: flex;
   align-items: center;
 }
+
 p
 {
   font-family: Arial, Helvetica, sans-serif;
@@ -106,6 +111,7 @@ p
   margin-bottom: 5px;
   text-align: center;
 }
+
 .play {
   transition: background-color 0.2s, border-color 0.2s;
   background-color: rgb(131, 0, 253);
