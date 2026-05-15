@@ -40,7 +40,10 @@ body {
   text-shadow: 0 0 15px #ff66cc, 0 0 25px #ff99dd;
   margin-bottom: 20px;
 }
-
+img
+{
+  height: 250px;
+}
 p {
   font-size: 22px;
   margin-bottom: 30px;
