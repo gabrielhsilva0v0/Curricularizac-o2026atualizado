@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Fredoka', sans-serif;
+  text-decoration: none;
 }
 
 body {
@@ -48,6 +49,7 @@ p {
 .btn {
   display: block;
   margin: 0 auto;
+  width: fit-content;
   padding: 14px 30px;
   font-size: 18px;
   border: none;

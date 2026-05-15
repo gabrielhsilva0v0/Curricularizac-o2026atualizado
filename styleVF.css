@@ -124,6 +124,7 @@ main {
     border: 5px rgba(98, 0, 255, 0.877) solid;
     border-radius: 30px;
     background-color: rgba(119, 0, 255, 0.664);
+    cursor: pointer;
     img {
         transform: translateX(-10px);
         height: 100px;

@@ -83,3 +83,35 @@ body {
   transform: scale(1.5);
   opacity: 0.9;
 }
+.logOut
+{
+  transition: all 0.2s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(253, 117, 6, 0.733);
+  border: rgb(202, 94, 5) 10px solid;
+  border-radius: 20px;
+  a{
+    padding: 10px;
+    img{
+      width: 100px;
+    }
+  }
+}
+.logOut:hover{
+   background-color: rgb(253, 117, 6);
+     border: rgb(253, 117, 6)10px solid;
+}
+.creditos
+{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  border-radius: 25px 0 0 0 ;
+  background-color:rgba(32, 0, 53, 0.815);
+
+}
