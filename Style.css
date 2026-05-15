@@ -3,7 +3,8 @@ body {
   text-transform: uppercase;
   background-image: url('assets/tela-de-fundo2.png');
   background-size: cover;
-
+  background-repeat: no-repeat;
+      height: 100vh;
 }
 
 .container {
