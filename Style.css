@@ -14,16 +14,18 @@ body {
   border-radius: 15px;
   border: 2px solid rgb(0, 0, 0);
   padding: 30px;
-  backdrop-filter: blur(4px);  /* Adiciona um efeito de desfoque ao fundo */
+  backdrop-filter: blur(4px);
+  /* Adiciona um efeito de desfoque ao fundo */
 }
 
 h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 2px 2px 4px rgb(0, 255, 200);
   font-size: 50px;
-  color: rgb(0, 0, 0);
+  color: rgb(19, 0, 31);
 }
 
-.loginF { 
+.loginF {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,35 +35,91 @@ h1 {
 }
 
 .loginF label {
-  width: 170px;
+  width: 160px;
   font-weight: bold;
   font-size: 30px;
-  color: rgb(0, 0, 0);
+  color: rgb(19, 0, 31);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .loginF input {
+  transition: background-color 0.2s;
   width: 250px;
   padding: 10px;
   border-radius: 10px;
   border-color: rgb(0, 119, 255);
   border-width: 3px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: rgb(163, 140, 184);
+}
+
+.loginF input[type=number] {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.loginF .labelComplement {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.loginF input::placeholder {
+  color: rgb(65, 65, 65);
+}
+
+.loginF input:focus {
+  border-color: rgb(131, 0, 253);
+  outline: 0;
+  background-color: rgb(139, 201, 255);
 }
 
 .login {
-  background-color: aqua;
-  border-color: aqua;
+  transition: background-color 0.2s, border-color 0.2s;
+  background-color: rgb(0, 255, 255);
+  border-color: rgba(54, 197, 197, 0.699);
   border-radius: 10px;
   border-width: 10px;
-
+  font-size: larger;
+  font-weight: 900;
 }
 
 .login:hover {
   background-color: rgb(0, 119, 255);
   color: white;
-  border-color: rgb(0, 119, 255);
+  border-color: rgb(0, 158, 197);
 }
 
 .campo {
   display: flex;
- 
+  align-items: center;
+}
+p
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.play {
+  transition: background-color 0.2s, border-color 0.2s;
+  background-color: rgb(131, 0, 253);
+  border: rgba(109, 54, 197, 0.699)10px ;
+  border-style:outset;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 900;
+  text-align: center;
+  padding:5px ;
+  color: rgb(108, 190, 180);
+  text-decoration: none;
+}
+
+.play:hover {
+  background-color: rgb(91, 0, 177);
+  
+  border-color: rgb(108, 0, 197);
 }
