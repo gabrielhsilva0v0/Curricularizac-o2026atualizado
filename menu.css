@@ -1,5 +1,6 @@
 :root{
   --textBorderColor:rgba(57, 155, 158, 0.678);
+  
 }
 body {
   background-image: url(assets/tela-de-fundo2.png);
@@ -20,7 +21,7 @@ body {
   font-family: Arial, sans-serif;
   overflow-y: hidden;
   text-transform: uppercase;
-
+  overflow: hidden;
 }
 .titulo
 {
