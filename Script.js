@@ -41,8 +41,13 @@ document.getElementById("VF").addEventListener("submit", function (event) {
                 if (perg < (rVF.length) - 1) {
                     perg++;
                     document.getElementById("pergunta").innerHTML = listPerguntas[perg];
-                    audioToPlay.play();
+                    document.getElementById("audioSrc").src = audioList[perg];
+                    audioToPlay.load();
                 }
+                else if (perg == (rVF.length)-1)
+                    {
+                        window.location.href="resultado.html";
+                    }
                 hold = 0;
             }, 850);
 
@@ -58,3 +63,10 @@ document.getElementById("VF").addEventListener("submit", function (event) {
         }
     }
 });
+function playAudio() 
+{
+    audioToPlay.pause()
+    audioToPlay.play()
+    return true;
+
+}

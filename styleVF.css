@@ -100,8 +100,9 @@ main {
 }
 
 .pergunta {
-    justify-items: center;
-    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     min-width: fit-content;
     width: 50vw;
     height: 15vh;
@@ -109,7 +110,35 @@ main {
     border: 10px solid var(--color1);
     border-radius: 40px;
     background-color: var(--color2);
+    flex-direction: row;
+    h1
+    {
+        width: 70%;
+    }
 }
+
+.audioBtn {
+    transition: all 0.2s;
+    height: 100px;
+    width: 100px;
+    border: 5px rgba(98, 0, 255, 0.877) solid;
+    border-radius: 30px;
+    background-color: rgba(119, 0, 255, 0.664);
+    img {
+        transform: translateX(-10px);
+        height: 100px;
+        width: 100px;
+    }
+}
+    .audioBtn:hover
+    {
+        transform: translateY(-10px);
+    }
+    .audioBtn:active
+    {
+       transform: translateY(10px);
+       background-color: rgb(119, 0, 255);
+    }
 
 .caixaResposta {
     display: flex;
@@ -196,8 +225,9 @@ main {
 }
 
 
+/* Scrapped Idea
 
-ball {
+.ball {
     position: fixed;
     top: calc(50vh - (var(--sizeBall) + 20px)/2);
     left: calc(50vw - (var(--sizeBall) + 20px)/2);
@@ -310,3 +340,4 @@ ball {
     }
     100%{transform: rotate(360deg);}
 }
+*/
